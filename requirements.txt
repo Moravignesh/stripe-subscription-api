@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+sqlalchemy
+stripe
+python-dotenv
+pydantic
