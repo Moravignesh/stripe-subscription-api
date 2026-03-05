@@ -37,7 +37,7 @@ async def stripe_webhook(request: Request):
 
         session = event["data"]["object"]
 
-        transaction_id = session["payment_intent"]
+        transaction_id = session["id"]
 
         db = SessionLocal()
 
